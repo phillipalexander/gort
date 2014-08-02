@@ -1,0 +1,30 @@
+{
+  "name": "gort",
+  "version": "0.0.0",
+  "description": "dashboard interface for robots",
+  "private": false,
+  "bin": {
+    "gort": "./bin/gort"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": "Phillip Alexander (https://github.com/phillipalexander)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phillipalexander/gort"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phillipalexander/gort/issues"
+  },
+  "dependencies": {
+    "commander": "~2.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/phillipalexander/gort",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  }
+}
